@@ -1,5 +1,17 @@
-body img {
+.social img {
   border: none;
-  border-radius: 10;
-  padding: 20;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: #f2f2f2;
+}
+
+.social img:hover {
+  transition: background-color 0.3s;
+  background-color: rgb(255, 0, 0);
+}
+
+.social img:active {
+  /* Active means clicked */
+  transition: background-color 0.1s;
+  background-color: #f2f2f2;
 }
